@@ -1,6 +1,7 @@
 export default class BookManager {
   constructor() {
     this.books = JSON.parse(localStorage.getItem('books')) || [];
+    this.displayBooks();
   }
 
   addBook = (title, author) => {
@@ -14,13 +15,13 @@ export default class BookManager {
     };
 
     this.books.push(newBook);
-    localStorage.setItem('books', JSON.stringify(this.books));
+    localStorage.setItem('books', JSON.stringify(this.books)); // Update localStorage here
     this.displayBooks();
   };
 
   removeBook = (index) => {
     this.books.splice(index, 1);
-    localStorage.setItem('books', JSON.stringify(this.books));
+    localStorage.setItem('books', JSON.stringify(this.books)); // Update localStorage here
     this.displayBooks();
   };
 

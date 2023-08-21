@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/prefer-default-export
-export function updateDate() {
+export default function updateDate() {
   const dateLink = document.getElementById('date-link');
   const options = {
     year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true,
