@@ -180,7 +180,7 @@ footer {
   }
 
   .nav-bar li a:hover {
-    color: rgb(187, 6, 60);
+    color: rgb(4, 134, 54);
   }
 
   .item2 {
@@ -194,7 +194,7 @@ footer {
   .book-content {
     width: 530px;
     height: auto;
-    border: 2px solid black;
+    border: 2px solid rgb(12, 8, 8);
     margin: 15px 0 15px 0;
     padding: 12px;
   }
