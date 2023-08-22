@@ -5,13 +5,13 @@ export default class ContentSections {
     this.addNewContent = document.querySelector('#addNewContent');
     this.contactContent = document.querySelector('#contactContent');
 
-    document.querySelector('.item1 a').addEventListener('click', () => {
+    document.querySelector('.item1').addEventListener('click', () => {
       this.showContent(this.listContent);
     });
-    document.querySelector('.item2 a').addEventListener('click', () => {
+    document.querySelector('.item2').addEventListener('click', () => {
       this.showContent(this.addNewContent);
     });
-    document.querySelector('.item3 a').addEventListener('click', () => {
+    document.querySelector('.item3').addEventListener('click', () => {
       this.showContent(this.contactContent);
     });
 
