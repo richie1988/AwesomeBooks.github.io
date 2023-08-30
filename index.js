@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const bookForm = new BookForm(bookManager);
   const contentSections = new ContentSections(bookManager);
 
-  // Display the books AFTER the form and content sections are initialized
+  // Display the books AFTER the form and content sections
   const displayBooks = () => {
     bookManager.displayBooks();
   };
