@@ -116,7 +116,7 @@ button {
   float: right;
   margin-left: 30px;
   border: 2px solid black;
-  box-shadow: 5px 5px 5px rgba(236, 74, 74, 0.4);
+  box-shadow: 5px 5px 5px rgba(230, 67, 67, 0.4);
   border-radius: 5px;
 }
 
@@ -180,7 +180,7 @@ footer {
   }
 
   .nav-bar li a:hover {
-    color: rgb(4, 134, 54);
+    color: rgb(4, 88, 36);
   }
 
   .item2 {
